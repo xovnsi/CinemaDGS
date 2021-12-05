@@ -6,8 +6,8 @@ from django.urls import path
 #from MovieApp.views import index
 
 urlpatterns=[
-    url(r'^movies$', views.movieAPI),
-    url(r'^movies/([0-9]+)$', views.movieAPI),
+    url(r'^movies/$', views.movieAPI),
+    url(r'^movies/([0-9]+)/$', views.movieAPI),
 
     #path('m/',index, name="index")
 ]
