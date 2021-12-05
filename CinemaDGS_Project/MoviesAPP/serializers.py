@@ -13,7 +13,7 @@ class MovieSerializer(serializers.ModelSerializer):
     movieDate = serializers.DateTimeField(source='date')
     movieDescription = serializers.CharField(source='desc')
     movieGenres = serializers.ListField(child = serializers.CharField(), source='genres')
-    movieRoomID = serializers.IntegerField(source='roomID')
+    movieRoomID = serializers.CharField(source='roomID')
     movieImage = serializers.ImageField(source="img")
 
     class Meta:

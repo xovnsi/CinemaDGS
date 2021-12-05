@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'MoviesAPP.apps.MoviesappConfig',
     'UsersAPP.apps.UsersappConfig',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -133,3 +134,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ALLOW_HEADERS = ("x-requested-with", "content-type", "accept", "origin", "authorization", "x-csrftoken")
