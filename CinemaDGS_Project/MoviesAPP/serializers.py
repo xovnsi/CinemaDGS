@@ -10,7 +10,7 @@ class MovieSerializer(serializers.ModelSerializer):
 
     movieTitle = serializers.CharField(source='title')
     movieID = serializers.IntegerField(source='id')
-    movieDate = serializers.DateField(source='date')
+    movieDate = serializers.DateTimeField(source='date')
     movieDescription = serializers.CharField(source='desc')
     movieGenres = serializers.ListField(child = serializers.CharField(), source='genres')
     movieRoomID = serializers.IntegerField(source='roomID')

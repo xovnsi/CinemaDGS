@@ -17,7 +17,7 @@ class Movie(models.Model):
     desc = models.CharField(max_length=400, db_column="movieDescription")
     genres = ArrayField(models.CharField(max_length=50), db_column="movieGenres")
     img = models.ImageField(db_column="movieImage", upload_to='images', default='default.jpg')
-    roomID = models.OneToOneField(Room, on_delete=models.CASCADE, db_column="movieRoomID", null=True)
+    roomID = models.ForeignKey(Room, on_delete=models.CASCADE, db_column="movieRoomID", null=True)
 
     class Meta:
         db_table = "movies"
