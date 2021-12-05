@@ -6,7 +6,6 @@ Projekt, które zrewolucjonizuje organizację w branży rozrywkowej i nie tylko
 ## Technologie
 * SQL
 * Django (Python)
-* Flask
 * HTML
 * SCSS
 * JavaScript
