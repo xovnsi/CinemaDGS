@@ -4,11 +4,19 @@ from django.contrib.auth.models import User, auth
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 from django.http.response import JsonResponse
+from rest_framework.decorators import api_view
 
 from UsersAPP.models import User
 from UsersAPP.serializers import UserSerializer 
 # Create your views here.
 
+
+@api_view(['GET'])
+def swanger(request):
+  resutl = {'a': 1}
+  resp = JsonResponse(resutl)
+  resp['Access-Control-Allow-Origin'] = '*'
+  return resp 
 
 def login(request):
     if request.method == 'POST':
