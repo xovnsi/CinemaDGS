@@ -19,3 +19,12 @@
 |Dodawanie/edytowanie/usuwanie seansów|Osoby o podwyższonych uprawnieniach mają możliwość dodawania, edytowania oraz usuwania seansów
 |Rezerwacja/sprzedaż biletów          |Osoby o konkretnych uprawieniach mają możliwość rezerwacji i sprzedaży biletów
 |Limit sprzedaży biletów              |Pracownik nie może sprzedać więcej biletów niż jest wolnych miejsc na dany seans
+### Wymagania niefunkcjonalne
+|               Nazwa                 |               Opis                |
+|-------------------------------------|-----------------------------------|
+|Dostępność                           |Aplikacja będzie dostępna całodobowo oprócz przerw technicznych, które najczęściej realizowane będą  w godzinach nocnych
+|Wydajność                            |Maksymalna ilość użytkowników korzystających z aplikacji będzie zdecydowanie przewyższać ilość aktualnych pracowników
+|Wsparcie                             |Monitoring aplikacji??? Max czas naprawy Użytkownicy mogą zgłaszać błędy poprzez kontakt mailowy xD
+|Bezpieczeństwo                       |Najważniejszym zagrożeniem, na które może być narażona aplikacja to wyciek danych. Sposoby zabezpieczenia
+
+
