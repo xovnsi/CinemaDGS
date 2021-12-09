@@ -8,8 +8,7 @@
 |Logowanie                            |Użytkownik ma możliwość zalogowania się przy użyciu swojej nazwy użytkownika oraz hasła
 |Nadanie stanowiska                   |Właściciel/Manager/Kierownik ma możliwość nadania stanowiska użytkowniku, który nie ma żadnego
 |Zmiana stanowiska                    |Właściciel/Menager ma możliwość awansowania lub zdegradowania pracownika (Manager nie może Managera)
-|Kategorie pracowników                |Pracownicy są kategoryzowanie według stanowisk
-właściciel
+|Kategorie pracowników                |Pracownicy są kategoryzowanie według stanowisk (Właściciel/Owner, Manadżer/Manager, Kierownik/Superviser, Cashier/Kasjer, Brak stanowiska/Null
 |Przeglądanie pracowników             |Menadżer ma możliwość przeglądania listy pracowników wraz z informacjami na ich temat
 |Usuwanie pracowników                 |Menadżer ma możliwość usunięcia danego pracownika
 |Dodawanie/usuwanie filmów            |Osoby o podwyższonych uprawnieniach mają możliwość dodawania oraz usuwania filmów
