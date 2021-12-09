@@ -4,11 +4,12 @@
 ### Wymagania funkcjonalne
 |               Nazwa                 |               Opis                |
 |-------------------------------------|-----------------------------------|
-|Utworzenie konta                     |Pracownik ma możliwość utworzenia konta przy użyciu swoich danych
-|Logowanie                            |Pracownik ma możliwość zalogowania się przy użyciu swojej nazwy użytkownika oraz hasła
-|Nadanie stanowiska                   |Menadżer/kierownik ma możliwość nadania stanowiska każdemu z pracowników
-|Zmiana stanowiska                    |Menadżer ma możliwość awansowania lub zdegradowania pracownika
-|Kategorie pracowników                |Pracownicy są kategoryzowanie według stanowisk 
+|Utworzenie konta                     |Użytkownik ma możliwość utworzenia konta przy użyciu swoich danych (Imię, Nazwisko, Username, Hasło)
+|Logowanie                            |Użytkownik ma możliwość zalogowania się przy użyciu swojej nazwy użytkownika oraz hasła
+|Nadanie stanowiska                   |Właściciel/Manager/Kierownik ma możliwość nadania stanowiska użytkowniku, który nie ma żadnego
+|Zmiana stanowiska                    |Właściciel/Menager ma możliwość awansowania lub zdegradowania pracownika (Manager nie może Managera)
+|Kategorie pracowników                |Pracownicy są kategoryzowanie według stanowisk
+właściciel
 |Przeglądanie pracowników             |Menadżer ma możliwość przeglądania listy pracowników wraz z informacjami na ich temat
 |Usuwanie pracowników                 |Menadżer ma możliwość usunięcia danego pracownika
 |Dodawanie/usuwanie filmów            |Osoby o podwyższonych uprawnieniach mają możliwość dodawania oraz usuwania filmów
