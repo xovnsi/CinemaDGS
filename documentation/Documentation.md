@@ -34,7 +34,7 @@
 |Wsparcie                             |Monitoring aplikacji użytkownicy mogą zgłaszać błędy poprzez korzystanie z formularza kontaktowego
 |Bezpieczeństwo                       |Najważniejszym zagrożeniem, na które może być narażona aplikacja to wyciek danych. Sposoby zabezpieczenia
 ## Lista wykorzystywanych technologii
-|             Technologia             |            Uzasadnienie           |
+|             Technologie             |            Argument               |
 |-------------------------------------|-----------------------------------|
 |Python                               |wybraliśmy Python, ponieważ ma dosyć nowoczesną składnię języka, umożliwiwa korzystania z różnych paradygmatów programowania (obiektowego, funkcyjnego, reaktywnego) i jest duża ilość odpowiedzi na pytania na StackOverflow.
 |Django (framework Pythona)           |wybraliśmy Django, ponieważ oferuje szybkie efekty (umożliwiając bardzo szybkie tworzenie aplikacji internetowych) i bezpieczeństwo (posiada wiele wbudowanych bibliotek dbających o bezpieczeństwo programu).
