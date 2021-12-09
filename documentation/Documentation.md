@@ -26,7 +26,7 @@
 |Wydajność                            |Maksymalna ilość użytkowników korzystających z aplikacji będzie zdecydowanie przewyższać ilość aktualnych pracowników
 |Wsparcie                             |Monitoring aplikacji??? Max czas naprawy Użytkownicy mogą zgłaszać błędy poprzez kontakt mailowy xD
 |Bezpieczeństwo                       |Najważniejszym zagrożeniem, na które może być narażona aplikacja to wyciek danych. Sposoby zabezpieczenia
-### Lista wykorzystywanych technologii
+## Lista wykorzystywanych technologii
 |             Technologia             |            Uzasadnienie           |
 |-------------------------------------|-----------------------------------|
 |Python                               |wybraliśmy Python, ponieważ ma dosyć nowoczesną składnię języka, umożliwiwa korzystania z różnych paradygmatów programowania (obiektowego, funkcyjnego, reaktywnego) i jest duża ilość odpowiedzi na pytania na StackOverflow.
@@ -36,3 +36,5 @@
 |SCSS (preprocesor CSSa)              |wybraliśmy SCSS, ponieważ jest bardziej rozszerzona wersją CSS, więc jest więcej dodatków w nim, a co najważniejsze mniej problemów przy Cross-Browser Testing).
 ## Use-cases
 ![This is a alt text.](useCase.png)
+## Prawa dostępu
+![This is a alt text.](prawa-dostepu-diagram.png)
