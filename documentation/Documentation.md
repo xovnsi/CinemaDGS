@@ -29,7 +29,7 @@
 ### Lista wykorzystywanych technologii
 |             Technologia             |            Uzasadnienie           |
 |-------------------------------------|-----------------------------------|
-|Python                               |wybraliśmy Python, ponieważ ma dosyć nowoczesną składnię języka, możliwiwa korzystania z różnych paradygmatów programowania (obiektowego, funkcyjnego, reaktywnego) i jest duża ilość odpowiedzi na pytania na StackOverflow.
+|Python                               |wybraliśmy Python, ponieważ ma dosyć nowoczesną składnię języka, umożliwiwa korzystania z różnych paradygmatów programowania (obiektowego, funkcyjnego, reaktywnego) i jest duża ilość odpowiedzi na pytania na StackOverflow.
 |Django (framework Pythona)           |wybraliśmy Django, ponieważ oferuje szybkie efekty (umożliwiając bardzo szybkie tworzenie aplikacji internetowych) i bezpieczeństwo (posiada wiele wbudowanych bibliotek dbających o bezpieczeństwo programu).
 |PostgreSQL                           |wybraliśmy PostgreSQL, ponieważ zapewnia relacyjny model baz danych łącznie z (obiektowym dając najlepsze rozwiązania dla obu modeli), niezawodność, otwarte oprogramowanie.
 |React (framework JavaScripta)        |wybraliśmy React, ponieważ jest jednym z najlepszych narzędzi do dynamicznego wyświetlania zawartości, a także zabezpiecza łatwą komunikację z backendem.
