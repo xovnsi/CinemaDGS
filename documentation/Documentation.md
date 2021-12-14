@@ -45,3 +45,16 @@
 ![This is a alt text.](useCase.png)
 ## Prawa dostępu
 ![This is a alt text.](prawa-dostepu-diagram.png)
+
+##Architektura systemu
+
+W systemie użyliśmy wzorca architektonicznego  model-view-controller (MVC), który rozróżnia trzy elemnety:
+
+    1. model zawiejarący naważniejsze funkcjonalności i dane reprezentuje problem
+    2. view opisujący jak wyświetlić model w ramach interfejsu użytkownika 
+    3. kontrolej przyjmujący i reagfujący na dane wprowadzone przez użytkownika
+
+Model dobrze odzwierciedla system, dzięki niemu interpretacja informacji jest odseparowana od sposobu, w jaki dostarczone są informacje oraz jak wyświetlane są użytkownikowi.
+Model uporząkowywuje architekturę systemu, dzięki rozdzieleniu na części zmiany w jednym elemencie mają minimalny wpływ na pozostałe. 
+Dzięki użytemu modelowi można efektywniej ponownie wykorzystywać kod. 
+
